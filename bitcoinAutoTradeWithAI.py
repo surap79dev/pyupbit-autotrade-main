@@ -4,8 +4,8 @@ import datetime
 import schedule
 from fbprophet import Prophet
 
-access = "your-access"
-secret = "your-secret"
+access = "4MXogAxGYDgFuPKBNROLFsGO0TJexN2xzEsDAMa3"
+secret = "SPx6osOGpXPoNaBALJfIRYLkw3xc6LMBlNxp18V3"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
